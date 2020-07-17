@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: eneo5541/hello-world-javascript-action@v1
+      uses: eneo5541/hello-world-javascript-action@v1.1
       with:
         who-to-greet: 'Fernando Incognito'
     # Use the output from the `hello` step
